@@ -8,11 +8,31 @@ server.use(express.static('public'))
 //config template engine
 const nunjucks = require("nunjucks")
 nunjucks.configure("./", {
-    express: server
+    express: server,
+    noCache: true,
 })
 
+const donors = [
+    {
+        name: "Diego Fernandes",
+        blood: "AB+"
+    },
+    {
+        name: "Cleiton Souza",
+        blood: "B+"
+    },
+    {
+        name: "Robson Marques",
+        blood: "0+"
+    },
+    {
+        name: "Mayk Brito",
+        blood: "A-"
+    },
+]
+
 server.get("/", function(req, res) {
-    return res.render("index.html")
+    return res.render("index.html", { donors })
 })
 
 server.listen(SERVER_PORT, function() {
