@@ -1,7 +1,7 @@
 # blood-donation
 💉 Projeto de doadores de sangue utilizando: Node, JS, Postgres, HTML e CSS. 
 
-<i>Projeto feito seguindo a Maratona da Programação da RocketSeat</i>
+<i>Projeto feito seguindo a Maratona da Programação da RocketSeat 💜</i>
 
 ## Requisitos
 
