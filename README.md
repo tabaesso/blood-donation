@@ -1,21 +1,23 @@
 # blood-donation
-💉 Projeto de doadores de sangue utilizando: Node, JS, Postgres, HTML e CSS
+💉 Projeto de doadores de sangue utilizando: Node, JS, Postgres, HTML e CSS. 
 
-## Requirements
+<i>Projeto feito seguindo a Maratona da Programação da RocketSeat</i>
+
+## Requisitos
 
 -   Npm
 -   Postgres
 -   Node.js
 
-## How to
+## Como fazer funcionar?
 
--   Clone this repo.
-    -   Development:
-        -   Type `npm install` to install its dependencies.
-        -   Type `npm start` to start the web and server.
-        -   Access the `http://localhost:3000` on the browser.
+-   Clone este repositório
+    -   Desenvolvimento:
+        -   Digite `npm install` para instalar as dependências do projeto.
+        -   Digite `npm start` para rodar o server.
+        -   Acesse o `http://localhost:3000` no navegador
 
-## Authors
+## Autora
 
 <table>
     <tr>
